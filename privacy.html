@@ -1,1 +1,31 @@
 
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Privacy Policy — Snugdoro</title>
+<style>body{max-width:850px;margin:auto;padding:35px 22px;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.7;background:#eff0eb;color:#25283a}h1,h2{color:#171a2b}a{color:#357d82}.box{background:#fffdf8;padding:25px;border-radius:18px}li{margin:8px 0}</style></head>
+<body><p><a href="index.html">← Snugdoro</a></p><h1>Privacy Policy</h1><p><strong>Last updated: September 12, 2026</strong></p>
+<div class="box"><p>This Privacy Policy explains how Snugdoro collects, uses, stores, and shares information when you use the Snugdoro app.</p></div>
+<h2>1. Information we collect</h2>
+<ul>
+<li><strong>Account information:</strong> Snugdoro creates an anonymous Supabase account when you first use the app. If you choose to link an account, we may process your Apple, Google, or email/password account information, including your email address and authentication identifiers.</li>
+<li><strong>Pet information:</strong> pet name, uploaded pet photographs, generated artwork, and information inferred from a pet photograph such as animal type, breed, size, and age group.</li>
+<li><strong>Focus and app data:</strong> focus and break sessions, session timestamps, durations, completion status, and session presets.</li>
+<li><strong>Generation information:</strong> generation status and device identifier used to enforce pet-generation quotas.</li>
+<li><strong>Profile information:</strong> profile photographs if you choose to provide one.</li>
+<li><strong>Purchase information:</strong> purchase-related information processed through Apple and RevenueCat. We do not receive your full payment card details.</li>
+</ul>
+<h2>2. Pet photographs and AI processing</h2>
+<p>When you upload a pet photograph for an AI-generated companion, the photograph is uploaded to Snugdoro's Supabase storage and sent from our server-side processing environment to OpenAI for moderation, visual analysis, and image generation. Snugdoro uses OpenAI's moderation, vision, and image-generation services for these functions.</p>
+<p>The OpenAI API credentials are stored server-side and are not included in the app. OpenAI processes information according to its applicable policies and terms. You can learn more from <a href="https://openai.com/policies/privacy-policy/" rel="noopener">OpenAI's Privacy Policy</a> and <a href="https://openai.com/enterprise-privacy/" rel="noopener">OpenAI's API privacy information</a>.</p>
+<h2>3. Storage and retention</h2>
+<p>Pet photographs are currently stored in our Supabase <code>pet-photos</code> storage and are retained until they are deleted through a supported deletion process. Generated pet artwork is stored in our <code>pet-art</code> storage. Session, preset, pet, and generation records may also be stored in our database to provide the app's synchronization and quota features.</p>
+<p><strong>Important:</strong> our current implementation does not yet provide complete automatic deletion of all remote pet photographs and artwork when an account is deleted. We intend to provide deletion of associated remote data as part of the account-deletion process. Until that functionality is implemented, users may contact us at <a href="mailto:cristopherdinoart@gmail.com">cristopherdinoart@gmail.com</a> to request deletion of stored personal data.</p>
+<h2>4. Third-party services</h2>
+<ul><li><strong>Supabase:</strong> authentication, database, and file storage.</li><li><strong>OpenAI:</strong> photo moderation, pet analysis, and generation of pet artwork.</li><li><strong>RevenueCat:</strong> purchase and entitlement management.</li><li><strong>Apple:</strong> App Store distribution and in-app purchase processing.</li></ul>
+<h2>5. Analytics and advertising</h2><p>Snugdoro does not currently use third-party analytics, advertising networks, or behavioral tracking services. We do not use Firebase Analytics, Amplitude, Mixpanel, Segment, PostHog, Sentry, TelemetryDeck, or similar analytics SDKs.</p>
+<h2>6. Your choices</h2><p>You can use Snugdoro without creating a traditional account. Optional sign-in lets you link your existing anonymous account to Apple, Google, or email/password credentials.</p>
+<p>If you want your information deleted, contact <a href="mailto:cristopherdinoart@gmail.com">cristopherdinoart@gmail.com</a>. If the app provides an in-app account deletion function, use that function to initiate deletion.</p>
+<h2>7. Children's privacy</h2><p>Snugdoro is not directed to children under 13, and we do not knowingly collect personal information from children under 13.</p>
+<h2>8. Security</h2><p>We use reasonable technical and organizational measures to protect information. AI API credentials are kept server-side in Supabase secrets rather than inside the shipped application.</p>
+<h2>9. Changes to this policy</h2><p>We may update this Privacy Policy when our practices change. The updated date at the top of this page will indicate when the policy was last revised.</p>
+<h2>10. Contact</h2><p>Questions or privacy requests: <a href="mailto:cristopherdinoart@gmail.com">cristopherdinoart@gmail.com</a>.</p>
+<p><a href="index.html">← Back to Snugdoro</a></p></body></html>
